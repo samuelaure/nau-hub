@@ -1,5 +1,5 @@
 import { cookies } from 'next/headers'
-import { getSessionFromCookieStore, COOKIE_ACCESS_TOKEN, signServiceToken } from '@samuelaure/auth'
+import { getSessionFromCookieStore, COOKIE_ACCESS_TOKEN, signServiceToken } from '@samuelaure/nau-auth'
 
 export const NAU_API_URL = process.env['NAU_API_URL'] ?? 'https://api.9nau.com'
 export const ZAZU_INTERNAL_URL = process.env['ZAZU_INTERNAL_URL'] ?? 'https://zazu.9nau.com'
